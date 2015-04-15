@@ -1,0 +1,867 @@
+fileFormatVersion: 2
+guid: e9094c06b8359dd41b9ef008c4f5e694
+timeCreated: 1429053346
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: back_ankle_L
+    100002: back_ankle_R
+    100004: back_foot_L
+    100006: back_foot_R
+    100008: back_footCtrl_L
+    100010: back_footCtrl_R
+    100012: back_footIK_L
+    100014: back_footIK_R
+    100016: back_footRollCtrl_L
+    100018: back_footRollCtrl_R
+    100020: back_heelRoll_L
+    100022: back_heelRoll_R
+    100024: back_kneeCtrl_L
+    100026: back_kneeCtrl_R
+    100028: back_lowLeg_L
+    100030: back_lowLeg_R
+    100032: back_toeRoll_L
+    100034: back_toeRoll_R
+    100036: back_toes_L
+    100038: back_toes_R
+    100040: back_upLeg_L
+    100042: back_upLeg_R
+    100044: Bone
+    100046: clavicle_L
+    100048: clavicle_R
+    100050: Cylinder
+    100052: Cylinder_001
+    100054: Cylinder_002
+    100056: Cylinder_003
+    100058: Cylinder_004
+    100060: Cylinder_005
+    100062: Cylinder_006
+    100064: Cylinder_007
+    100066: DragonModel
+    100068: DragonSkin1
+    100070: DragonSkin2
+    100072: DragonSkin3
+    100074: DragonSkin4
+    100076: DragonSkin5
+    100078: DragonSkin6
+    100080: DragonSkin7
+    100082: DragonSkin8
+    100084: eye_L
+    100086: eye_R
+    100088: front_foot_L
+    100090: front_foot_R
+    100092: front_footCtrl_L
+    100094: front_footCtrl_R
+    100096: front_footIK_L
+    100098: front_footIK_R
+    100100: front_footRollCtrl_L
+    100102: front_footRollCtrl_R
+    100104: front_heelRoll_L
+    100106: front_heelRoll_R
+    100108: front_kneeCtrl_L
+    100110: front_kneeCtrl_R
+    100112: front_lowArm_L
+    100114: front_lowArm_R
+    100116: front_toeRoll_L
+    100118: front_toeRoll_R
+    100120: front_toes_L
+    100122: front_toes_R
+    100124: front_upArm_L
+    100126: front_upArm_R
+    100128: //RootNode
+    100130: Gums
+    100132: hipsCtrl
+    100134: lower_jaw1
+    100136: lower_jaw2
+    100138: lower_jaw3
+    100140: lower_jaw4
+    100142: lower_neck
+    100144: Mover
+    100146: neck1
+    100148: neck2
+    100150: neck3
+    100152: neck4
+    100154: neck5
+    100156: neck6
+    100158: neckIK
+    100160: root
+    100162: spine1
+    100164: spine2
+    100166: tail1
+    100168: tail10
+    100170: tail11
+    100172: tail12
+    100174: tail2
+    100176: tail3
+    100178: tail4
+    100180: tail5
+    100182: tail6
+    100184: tail7
+    100186: tail8
+    100188: tail9
+    100190: tailIK
+    100192: Teeth
+    100194: tipTail
+    100196: upper_jaw1
+    100198: upper_jaw2
+    100200: upper_jaw3
+    100202: upper_jaw4
+    100204: upper_neck
+    100206: wing1_L
+    100208: wing1_L_001
+    100210: wing1_R
+    100212: wing1_R_001
+    100214: wing2_L
+    100216: wing2_R
+    100218: wing3_L
+    100220: wing3_R
+    100222: wing4_L
+    100224: wing4_R
+    100226: wingIK_L
+    100228: wingIK_R
+    100230: wingPole_L
+    100232: wingPole_R
+    400000: back_ankle_L
+    400002: back_ankle_R
+    400004: back_foot_L
+    400006: back_foot_R
+    400008: back_footCtrl_L
+    400010: back_footCtrl_R
+    400012: back_footIK_L
+    400014: back_footIK_R
+    400016: back_footRollCtrl_L
+    400018: back_footRollCtrl_R
+    400020: back_heelRoll_L
+    400022: back_heelRoll_R
+    400024: back_kneeCtrl_L
+    400026: back_kneeCtrl_R
+    400028: back_lowLeg_L
+    400030: back_lowLeg_R
+    400032: back_toeRoll_L
+    400034: back_toeRoll_R
+    400036: back_toes_L
+    400038: back_toes_R
+    400040: back_upLeg_L
+    400042: back_upLeg_R
+    400044: Bone
+    400046: clavicle_L
+    400048: clavicle_R
+    400050: Cylinder
+    400052: Cylinder_001
+    400054: Cylinder_002
+    400056: Cylinder_003
+    400058: Cylinder_004
+    400060: Cylinder_005
+    400062: Cylinder_006
+    400064: Cylinder_007
+    400066: DragonModel
+    400068: DragonSkin1
+    400070: DragonSkin2
+    400072: DragonSkin3
+    400074: DragonSkin4
+    400076: DragonSkin5
+    400078: DragonSkin6
+    400080: DragonSkin7
+    400082: DragonSkin8
+    400084: eye_L
+    400086: eye_R
+    400088: front_foot_L
+    400090: front_foot_R
+    400092: front_footCtrl_L
+    400094: front_footCtrl_R
+    400096: front_footIK_L
+    400098: front_footIK_R
+    400100: front_footRollCtrl_L
+    400102: front_footRollCtrl_R
+    400104: front_heelRoll_L
+    400106: front_heelRoll_R
+    400108: front_kneeCtrl_L
+    400110: front_kneeCtrl_R
+    400112: front_lowArm_L
+    400114: front_lowArm_R
+    400116: front_toeRoll_L
+    400118: front_toeRoll_R
+    400120: front_toes_L
+    400122: front_toes_R
+    400124: front_upArm_L
+    400126: front_upArm_R
+    400128: //RootNode
+    400130: Gums
+    400132: hipsCtrl
+    400134: lower_jaw1
+    400136: lower_jaw2
+    400138: lower_jaw3
+    400140: lower_jaw4
+    400142: lower_neck
+    400144: Mover
+    400146: neck1
+    400148: neck2
+    400150: neck3
+    400152: neck4
+    400154: neck5
+    400156: neck6
+    400158: neckIK
+    400160: root
+    400162: spine1
+    400164: spine2
+    400166: tail1
+    400168: tail10
+    400170: tail11
+    400172: tail12
+    400174: tail2
+    400176: tail3
+    400178: tail4
+    400180: tail5
+    400182: tail6
+    400184: tail7
+    400186: tail8
+    400188: tail9
+    400190: tailIK
+    400192: Teeth
+    400194: tipTail
+    400196: upper_jaw1
+    400198: upper_jaw2
+    400200: upper_jaw3
+    400202: upper_jaw4
+    400204: upper_neck
+    400206: wing1_L
+    400208: wing1_L_001
+    400210: wing1_R
+    400212: wing1_R_001
+    400214: wing2_L
+    400216: wing2_R
+    400218: wing3_L
+    400220: wing3_R
+    400222: wing4_L
+    400224: wing4_R
+    400226: wingIK_L
+    400228: wingIK_R
+    400230: wingPole_L
+    400232: wingPole_R
+    4300000: Gums
+    4300002: Cylinder_007
+    4300004: Cylinder_006
+    4300006: Cylinder_004
+    4300008: DragonSkin8
+    4300010: DragonSkin7
+    4300012: DragonSkin6
+    4300014: DragonSkin5
+    4300016: DragonSkin4
+    4300018: DragonSkin3
+    4300020: DragonSkin2
+    4300022: DragonSkin1
+    4300024: Teeth
+    4300026: eye_L
+    4300028: eye_R
+    4300030: DragonModel
+    4300032: Cylinder
+    4300034: Cylinder_001
+    4300036: Cylinder_002
+    4300038: Cylinder_003
+    4300040: Cylinder_005
+    7400000: Default Take
+    7400002: BoneAction
+    7400004: Flying
+    7400006: FireGlide
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: Cylinder
+    13700002: Cylinder_001
+    13700004: Cylinder_002
+    13700006: Cylinder_003
+    13700008: Cylinder_004
+    13700010: Cylinder_005
+    13700012: Cylinder_006
+    13700014: Cylinder_007
+    13700016: DragonModel
+    13700018: DragonSkin1
+    13700020: DragonSkin2
+    13700022: DragonSkin3
+    13700024: DragonSkin4
+    13700026: DragonSkin5
+    13700028: DragonSkin6
+    13700030: DragonSkin7
+    13700032: DragonSkin8
+    13700034: eye_L
+    13700036: eye_R
+    13700038: Gums
+    13700040: Teeth
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Flying
+      takeName: BoneAction
+      firstFrame: 100
+      lastFrame: 132
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Cylinder
+        weight: 1
+      - path: Cylinder_001
+        weight: 1
+      - path: Cylinder_002
+        weight: 1
+      - path: Cylinder_003
+        weight: 1
+      - path: Cylinder_004
+        weight: 1
+      - path: Cylinder_005
+        weight: 1
+      - path: Cylinder_006
+        weight: 1
+      - path: Cylinder_007
+        weight: 1
+      - path: DragonModel
+        weight: 1
+      - path: DragonSkin1
+        weight: 1
+      - path: DragonSkin2
+        weight: 1
+      - path: DragonSkin3
+        weight: 1
+      - path: DragonSkin4
+        weight: 1
+      - path: DragonSkin5
+        weight: 1
+      - path: DragonSkin6
+        weight: 1
+      - path: DragonSkin7
+        weight: 1
+      - path: DragonSkin8
+        weight: 1
+      - path: eye_L
+        weight: 1
+      - path: eye_R
+        weight: 1
+      - path: Gums
+        weight: 1
+      - path: Mover
+        weight: 1
+      - path: Mover/Bone
+        weight: 1
+      - path: Mover/Bone/back_footCtrl_L
+        weight: 1
+      - path: Mover/Bone/back_footCtrl_L/back_footRollCtrl_L
+        weight: 1
+      - path: Mover/Bone/back_footCtrl_L/back_heelRoll_L
+        weight: 1
+      - path: Mover/Bone/back_footCtrl_L/back_heelRoll_L/back_toeRoll_L
+        weight: 1
+      - path: Mover/Bone/back_footCtrl_L/back_heelRoll_L/back_toeRoll_L/back_footIK_L
+        weight: 1
+      - path: Mover/Bone/back_footCtrl_L/back_kneeCtrl_L
+        weight: 1
+      - path: Mover/Bone/back_footCtrl_R
+        weight: 1
+      - path: Mover/Bone/back_footCtrl_R/back_footRollCtrl_R
+        weight: 1
+      - path: Mover/Bone/back_footCtrl_R/back_heelRoll_R
+        weight: 1
+      - path: Mover/Bone/back_footCtrl_R/back_heelRoll_R/back_toeRoll_R
+        weight: 1
+      - path: Mover/Bone/back_footCtrl_R/back_heelRoll_R/back_toeRoll_R/back_footIK_R
+        weight: 1
+      - path: Mover/Bone/back_footCtrl_R/back_kneeCtrl_R
+        weight: 1
+      - path: Mover/Bone/front_footCtrl_L
+        weight: 1
+      - path: Mover/Bone/front_footCtrl_L/front_footRollCtrl_L
+        weight: 1
+      - path: Mover/Bone/front_footCtrl_L/front_heelRoll_L
+        weight: 1
+      - path: Mover/Bone/front_footCtrl_L/front_heelRoll_L/front_toeRoll_L
+        weight: 1
+      - path: Mover/Bone/front_footCtrl_L/front_heelRoll_L/front_toeRoll_L/front_footIK_L
+        weight: 1
+      - path: Mover/Bone/front_footCtrl_L/front_kneeCtrl_L
+        weight: 1
+      - path: Mover/Bone/front_footCtrl_R
+        weight: 1
+      - path: Mover/Bone/front_footCtrl_R/front_footRollCtrl_R
+        weight: 1
+      - path: Mover/Bone/front_footCtrl_R/front_heelRoll_R
+        weight: 1
+      - path: Mover/Bone/front_footCtrl_R/front_heelRoll_R/front_toeRoll_R
+        weight: 1
+      - path: Mover/Bone/front_footCtrl_R/front_heelRoll_R/front_toeRoll_R/front_footIK_R
+        weight: 1
+      - path: Mover/Bone/front_footCtrl_R/front_kneeCtrl_R
+        weight: 1
+      - path: Mover/Bone/hipsCtrl
+        weight: 1
+      - path: Mover/Bone/hipsCtrl/root
+        weight: 1
+      - path: Mover/Bone/hipsCtrl/root/back_upLeg_L
+        weight: 1
+      - path: Mover/Bone/hipsCtrl/root/back_upLeg_L/back_lowLeg_L
+        weight: 1
+      - path: Mover/Bone/hipsCtrl/root/back_upLeg_L/back_lowLeg_L/back_ankle_L
+        weight: 1
+      - path: Mover/Bone/hipsCtrl/root/back_upLeg_L/back_lowLeg_L/back_ankle_L/back_foot_L
+        weight: 1
+      - path: Mover/Bone/hipsCtrl/root/back_upLeg_L/back_lowLeg_L/back_ankle_L/back_foot_L/back_toes_L
+        weight: 1
+      - path: Mover/Bone/hipsCtrl/root/back_upLeg_R
+        weight: 1
+      - path: Mover/Bone/hipsCtrl/root/back_upLeg_R/back_lowLeg_R
+        weight: 1
+      - path: Mover/Bone/hipsCtrl/root/back_upLeg_R/back_lowLeg_R/back_ankle_R
+        weight: 1
+      - path: Mover/Bone/hipsCtrl/root/back_upLeg_R/back_lowLeg_R/back_ankle_R/back_foot_R
+        weight: 1
+      - path: Mover/Bone/hipsCtrl/root/back_upLeg_R/back_lowLeg_R/back_ankle_R/back_foot_R/back_toes_R
+        weight: 1
+      - path: Mover/Bone/hipsCtrl/root/spine1
+        weight: 1
+      - path: Mover/Bone/hipsCtrl/root/spine1/spine2
+        weight: 1
+      - path: Mover/Bone/hipsCtrl/root/spine1/spine2/lower_neck
+        weight: 1
+      - path: Mover/Bone/hipsCtrl/root/spine1/spine2/lower_neck/clavicle_L
+        weight: 1
+      - path: Mover/Bone/hipsCtrl/root/spine1/spine2/lower_neck/clavicle_L/front_upArm_L
+        weight: 1
+      - path: Mover/Bone/hipsCtrl/root/spine1/spine2/lower_neck/clavicle_L/front_upArm_L/front_lowArm_L
+        weight: 1
+      - path: Mover/Bone/hipsCtrl/root/spine1/spine2/lower_neck/clavicle_L/front_upArm_L/front_lowArm_L/front_foot_L
+        weight: 1
+      - path: Mover/Bone/hipsCtrl/root/spine1/spine2/lower_neck/clavicle_L/front_upArm_L/front_lowArm_L/front_foot_L/front_toes_L
+        weight: 1
+      - path: Mover/Bone/hipsCtrl/root/spine1/spine2/lower_neck/clavicle_R
+        weight: 1
+      - path: Mover/Bone/hipsCtrl/root/spine1/spine2/lower_neck/clavicle_R/front_upArm_R
+        weight: 1
+      - path: Mover/Bone/hipsCtrl/root/spine1/spine2/lower_neck/clavicle_R/front_upArm_R/front_lowArm_R
+        weight: 1
+      - path: Mover/Bone/hipsCtrl/root/spine1/spine2/lower_neck/clavicle_R/front_upArm_R/front_lowArm_R/front_foot_R
+        weight: 1
+      - path: Mover/Bone/hipsCtrl/root/spine1/spine2/lower_neck/clavicle_R/front_upArm_R/front_lowArm_R/front_foot_R/front_toes_R
+        weight: 1
+      - path: Mover/Bone/hipsCtrl/root/spine1/spine2/lower_neck/neck1
+        weight: 1
+      - path: Mover/Bone/hipsCtrl/root/spine1/spine2/lower_neck/neck1/neck2
+        weight: 1
+      - path: Mover/Bone/hipsCtrl/root/spine1/spine2/lower_neck/neck1/neck2/neck3
+        weight: 1
+      - path: Mover/Bone/hipsCtrl/root/spine1/spine2/lower_neck/neck1/neck2/neck3/neck4
+        weight: 1
+      - path: Mover/Bone/hipsCtrl/root/spine1/spine2/lower_neck/neck1/neck2/neck3/neck4/neck5
+        weight: 1
+      - path: Mover/Bone/hipsCtrl/root/spine1/spine2/lower_neck/neck1/neck2/neck3/neck4/neck5/neck6
+        weight: 1
+      - path: Mover/Bone/hipsCtrl/root/spine1/spine2/lower_neck/neck1/neck2/neck3/neck4/neck5/neck6/upper_neck
+        weight: 1
+      - path: Mover/Bone/hipsCtrl/root/spine1/spine2/lower_neck/neck1/neck2/neck3/neck4/neck5/neck6/upper_neck/lower_jaw1
+        weight: 1
+      - path: Mover/Bone/hipsCtrl/root/spine1/spine2/lower_neck/neck1/neck2/neck3/neck4/neck5/neck6/upper_neck/lower_jaw1/lower_jaw2
+        weight: 1
+      - path: Mover/Bone/hipsCtrl/root/spine1/spine2/lower_neck/neck1/neck2/neck3/neck4/neck5/neck6/upper_neck/lower_jaw1/lower_jaw2/lower_jaw3
+        weight: 1
+      - path: Mover/Bone/hipsCtrl/root/spine1/spine2/lower_neck/neck1/neck2/neck3/neck4/neck5/neck6/upper_neck/lower_jaw1/lower_jaw2/lower_jaw3/lower_jaw4
+        weight: 1
+      - path: Mover/Bone/hipsCtrl/root/spine1/spine2/lower_neck/neck1/neck2/neck3/neck4/neck5/neck6/upper_neck/upper_jaw1
+        weight: 1
+      - path: Mover/Bone/hipsCtrl/root/spine1/spine2/lower_neck/neck1/neck2/neck3/neck4/neck5/neck6/upper_neck/upper_jaw1/upper_jaw2
+        weight: 1
+      - path: Mover/Bone/hipsCtrl/root/spine1/spine2/lower_neck/neck1/neck2/neck3/neck4/neck5/neck6/upper_neck/upper_jaw1/upper_jaw2/upper_jaw3
+        weight: 1
+      - path: Mover/Bone/hipsCtrl/root/spine1/spine2/lower_neck/neck1/neck2/neck3/neck4/neck5/neck6/upper_neck/upper_jaw1/upper_jaw2/upper_jaw3/upper_jaw4
+        weight: 1
+      - path: Mover/Bone/hipsCtrl/root/spine1/wing1_L_001
+        weight: 1
+      - path: Mover/Bone/hipsCtrl/root/spine1/wing1_L_001/wing1_L
+        weight: 1
+      - path: Mover/Bone/hipsCtrl/root/spine1/wing1_L_001/wing1_L/wing2_L
+        weight: 1
+      - path: Mover/Bone/hipsCtrl/root/spine1/wing1_L_001/wing1_L/wing2_L/wing3_L
+        weight: 1
+      - path: Mover/Bone/hipsCtrl/root/spine1/wing1_L_001/wing1_L/wing2_L/wing3_L/wing4_L
+        weight: 1
+      - path: Mover/Bone/hipsCtrl/root/spine1/wing1_R_001
+        weight: 1
+      - path: Mover/Bone/hipsCtrl/root/spine1/wing1_R_001/wing1_R
+        weight: 1
+      - path: Mover/Bone/hipsCtrl/root/spine1/wing1_R_001/wing1_R/wing2_R
+        weight: 1
+      - path: Mover/Bone/hipsCtrl/root/spine1/wing1_R_001/wing1_R/wing2_R/wing3_R
+        weight: 1
+      - path: Mover/Bone/hipsCtrl/root/spine1/wing1_R_001/wing1_R/wing2_R/wing3_R/wing4_R
+        weight: 1
+      - path: Mover/Bone/hipsCtrl/root/tail1
+        weight: 1
+      - path: Mover/Bone/hipsCtrl/root/tail1/tail2
+        weight: 1
+      - path: Mover/Bone/hipsCtrl/root/tail1/tail2/tail3
+        weight: 1
+      - path: Mover/Bone/hipsCtrl/root/tail1/tail2/tail3/tail4
+        weight: 1
+      - path: Mover/Bone/hipsCtrl/root/tail1/tail2/tail3/tail4/tail5
+        weight: 1
+      - path: Mover/Bone/hipsCtrl/root/tail1/tail2/tail3/tail4/tail5/tail6
+        weight: 1
+      - path: Mover/Bone/hipsCtrl/root/tail1/tail2/tail3/tail4/tail5/tail6/tail7
+        weight: 1
+      - path: Mover/Bone/hipsCtrl/root/tail1/tail2/tail3/tail4/tail5/tail6/tail7/tail8
+        weight: 1
+      - path: Mover/Bone/hipsCtrl/root/tail1/tail2/tail3/tail4/tail5/tail6/tail7/tail8/tail9
+        weight: 1
+      - path: Mover/Bone/hipsCtrl/root/tail1/tail2/tail3/tail4/tail5/tail6/tail7/tail8/tail9/tail10
+        weight: 1
+      - path: Mover/Bone/hipsCtrl/root/tail1/tail2/tail3/tail4/tail5/tail6/tail7/tail8/tail9/tail10/tail11
+        weight: 1
+      - path: Mover/Bone/hipsCtrl/root/tail1/tail2/tail3/tail4/tail5/tail6/tail7/tail8/tail9/tail10/tail11/tail12
+        weight: 1
+      - path: Mover/Bone/hipsCtrl/root/tail1/tail2/tail3/tail4/tail5/tail6/tail7/tail8/tail9/tail10/tail11/tail12/tipTail
+        weight: 1
+      - path: Mover/Bone/neckIK
+        weight: 1
+      - path: Mover/Bone/tailIK
+        weight: 1
+      - path: Mover/Bone/wingIK_L
+        weight: 1
+      - path: Mover/Bone/wingIK_R
+        weight: 1
+      - path: Mover/Bone/wingPole_L
+        weight: 1
+      - path: Mover/Bone/wingPole_R
+        weight: 1
+      - path: Teeth
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: FireGlide
+      takeName: BoneAction
+      firstFrame: 200
+      lastFrame: 319
+      wrapMode: 1
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Cylinder
+        weight: 1
+      - path: Cylinder_001
+        weight: 1
+      - path: Cylinder_002
+        weight: 1
+      - path: Cylinder_003
+        weight: 1
+      - path: Cylinder_004
+        weight: 1
+      - path: Cylinder_005
+        weight: 1
+      - path: Cylinder_006
+        weight: 1
+      - path: Cylinder_007
+        weight: 1
+      - path: DragonModel
+        weight: 1
+      - path: DragonSkin1
+        weight: 1
+      - path: DragonSkin2
+        weight: 1
+      - path: DragonSkin3
+        weight: 1
+      - path: DragonSkin4
+        weight: 1
+      - path: DragonSkin5
+        weight: 1
+      - path: DragonSkin6
+        weight: 1
+      - path: DragonSkin7
+        weight: 1
+      - path: DragonSkin8
+        weight: 1
+      - path: eye_L
+        weight: 1
+      - path: eye_R
+        weight: 1
+      - path: Gums
+        weight: 1
+      - path: Mover
+        weight: 1
+      - path: Mover/Bone
+        weight: 1
+      - path: Mover/Bone/back_footCtrl_L
+        weight: 1
+      - path: Mover/Bone/back_footCtrl_L/back_footRollCtrl_L
+        weight: 1
+      - path: Mover/Bone/back_footCtrl_L/back_heelRoll_L
+        weight: 1
+      - path: Mover/Bone/back_footCtrl_L/back_heelRoll_L/back_toeRoll_L
+        weight: 1
+      - path: Mover/Bone/back_footCtrl_L/back_heelRoll_L/back_toeRoll_L/back_footIK_L
+        weight: 1
+      - path: Mover/Bone/back_footCtrl_L/back_kneeCtrl_L
+        weight: 1
+      - path: Mover/Bone/back_footCtrl_R
+        weight: 1
+      - path: Mover/Bone/back_footCtrl_R/back_footRollCtrl_R
+        weight: 1
+      - path: Mover/Bone/back_footCtrl_R/back_heelRoll_R
+        weight: 1
+      - path: Mover/Bone/back_footCtrl_R/back_heelRoll_R/back_toeRoll_R
+        weight: 1
+      - path: Mover/Bone/back_footCtrl_R/back_heelRoll_R/back_toeRoll_R/back_footIK_R
+        weight: 1
+      - path: Mover/Bone/back_footCtrl_R/back_kneeCtrl_R
+        weight: 1
+      - path: Mover/Bone/front_footCtrl_L
+        weight: 1
+      - path: Mover/Bone/front_footCtrl_L/front_footRollCtrl_L
+        weight: 1
+      - path: Mover/Bone/front_footCtrl_L/front_heelRoll_L
+        weight: 1
+      - path: Mover/Bone/front_footCtrl_L/front_heelRoll_L/front_toeRoll_L
+        weight: 1
+      - path: Mover/Bone/front_footCtrl_L/front_heelRoll_L/front_toeRoll_L/front_footIK_L
+        weight: 1
+      - path: Mover/Bone/front_footCtrl_L/front_kneeCtrl_L
+        weight: 1
+      - path: Mover/Bone/front_footCtrl_R
+        weight: 1
+      - path: Mover/Bone/front_footCtrl_R/front_footRollCtrl_R
+        weight: 1
+      - path: Mover/Bone/front_footCtrl_R/front_heelRoll_R
+        weight: 1
+      - path: Mover/Bone/front_footCtrl_R/front_heelRoll_R/front_toeRoll_R
+        weight: 1
+      - path: Mover/Bone/front_footCtrl_R/front_heelRoll_R/front_toeRoll_R/front_footIK_R
+        weight: 1
+      - path: Mover/Bone/front_footCtrl_R/front_kneeCtrl_R
+        weight: 1
+      - path: Mover/Bone/hipsCtrl
+        weight: 1
+      - path: Mover/Bone/hipsCtrl/root
+        weight: 1
+      - path: Mover/Bone/hipsCtrl/root/back_upLeg_L
+        weight: 1
+      - path: Mover/Bone/hipsCtrl/root/back_upLeg_L/back_lowLeg_L
+        weight: 1
+      - path: Mover/Bone/hipsCtrl/root/back_upLeg_L/back_lowLeg_L/back_ankle_L
+        weight: 1
+      - path: Mover/Bone/hipsCtrl/root/back_upLeg_L/back_lowLeg_L/back_ankle_L/back_foot_L
+        weight: 1
+      - path: Mover/Bone/hipsCtrl/root/back_upLeg_L/back_lowLeg_L/back_ankle_L/back_foot_L/back_toes_L
+        weight: 1
+      - path: Mover/Bone/hipsCtrl/root/back_upLeg_R
+        weight: 1
+      - path: Mover/Bone/hipsCtrl/root/back_upLeg_R/back_lowLeg_R
+        weight: 1
+      - path: Mover/Bone/hipsCtrl/root/back_upLeg_R/back_lowLeg_R/back_ankle_R
+        weight: 1
+      - path: Mover/Bone/hipsCtrl/root/back_upLeg_R/back_lowLeg_R/back_ankle_R/back_foot_R
+        weight: 1
+      - path: Mover/Bone/hipsCtrl/root/back_upLeg_R/back_lowLeg_R/back_ankle_R/back_foot_R/back_toes_R
+        weight: 1
+      - path: Mover/Bone/hipsCtrl/root/spine1
+        weight: 1
+      - path: Mover/Bone/hipsCtrl/root/spine1/spine2
+        weight: 1
+      - path: Mover/Bone/hipsCtrl/root/spine1/spine2/lower_neck
+        weight: 1
+      - path: Mover/Bone/hipsCtrl/root/spine1/spine2/lower_neck/clavicle_L
+        weight: 1
+      - path: Mover/Bone/hipsCtrl/root/spine1/spine2/lower_neck/clavicle_L/front_upArm_L
+        weight: 1
+      - path: Mover/Bone/hipsCtrl/root/spine1/spine2/lower_neck/clavicle_L/front_upArm_L/front_lowArm_L
+        weight: 1
+      - path: Mover/Bone/hipsCtrl/root/spine1/spine2/lower_neck/clavicle_L/front_upArm_L/front_lowArm_L/front_foot_L
+        weight: 1
+      - path: Mover/Bone/hipsCtrl/root/spine1/spine2/lower_neck/clavicle_L/front_upArm_L/front_lowArm_L/front_foot_L/front_toes_L
+        weight: 1
+      - path: Mover/Bone/hipsCtrl/root/spine1/spine2/lower_neck/clavicle_R
+        weight: 1
+      - path: Mover/Bone/hipsCtrl/root/spine1/spine2/lower_neck/clavicle_R/front_upArm_R
+        weight: 1
+      - path: Mover/Bone/hipsCtrl/root/spine1/spine2/lower_neck/clavicle_R/front_upArm_R/front_lowArm_R
+        weight: 1
+      - path: Mover/Bone/hipsCtrl/root/spine1/spine2/lower_neck/clavicle_R/front_upArm_R/front_lowArm_R/front_foot_R
+        weight: 1
+      - path: Mover/Bone/hipsCtrl/root/spine1/spine2/lower_neck/clavicle_R/front_upArm_R/front_lowArm_R/front_foot_R/front_toes_R
+        weight: 1
+      - path: Mover/Bone/hipsCtrl/root/spine1/spine2/lower_neck/neck1
+        weight: 1
+      - path: Mover/Bone/hipsCtrl/root/spine1/spine2/lower_neck/neck1/neck2
+        weight: 1
+      - path: Mover/Bone/hipsCtrl/root/spine1/spine2/lower_neck/neck1/neck2/neck3
+        weight: 1
+      - path: Mover/Bone/hipsCtrl/root/spine1/spine2/lower_neck/neck1/neck2/neck3/neck4
+        weight: 1
+      - path: Mover/Bone/hipsCtrl/root/spine1/spine2/lower_neck/neck1/neck2/neck3/neck4/neck5
+        weight: 1
+      - path: Mover/Bone/hipsCtrl/root/spine1/spine2/lower_neck/neck1/neck2/neck3/neck4/neck5/neck6
+        weight: 1
+      - path: Mover/Bone/hipsCtrl/root/spine1/spine2/lower_neck/neck1/neck2/neck3/neck4/neck5/neck6/upper_neck
+        weight: 1
+      - path: Mover/Bone/hipsCtrl/root/spine1/spine2/lower_neck/neck1/neck2/neck3/neck4/neck5/neck6/upper_neck/lower_jaw1
+        weight: 1
+      - path: Mover/Bone/hipsCtrl/root/spine1/spine2/lower_neck/neck1/neck2/neck3/neck4/neck5/neck6/upper_neck/lower_jaw1/lower_jaw2
+        weight: 1
+      - path: Mover/Bone/hipsCtrl/root/spine1/spine2/lower_neck/neck1/neck2/neck3/neck4/neck5/neck6/upper_neck/lower_jaw1/lower_jaw2/lower_jaw3
+        weight: 1
+      - path: Mover/Bone/hipsCtrl/root/spine1/spine2/lower_neck/neck1/neck2/neck3/neck4/neck5/neck6/upper_neck/lower_jaw1/lower_jaw2/lower_jaw3/lower_jaw4
+        weight: 1
+      - path: Mover/Bone/hipsCtrl/root/spine1/spine2/lower_neck/neck1/neck2/neck3/neck4/neck5/neck6/upper_neck/upper_jaw1
+        weight: 1
+      - path: Mover/Bone/hipsCtrl/root/spine1/spine2/lower_neck/neck1/neck2/neck3/neck4/neck5/neck6/upper_neck/upper_jaw1/upper_jaw2
+        weight: 1
+      - path: Mover/Bone/hipsCtrl/root/spine1/spine2/lower_neck/neck1/neck2/neck3/neck4/neck5/neck6/upper_neck/upper_jaw1/upper_jaw2/upper_jaw3
+        weight: 1
+      - path: Mover/Bone/hipsCtrl/root/spine1/spine2/lower_neck/neck1/neck2/neck3/neck4/neck5/neck6/upper_neck/upper_jaw1/upper_jaw2/upper_jaw3/upper_jaw4
+        weight: 1
+      - path: Mover/Bone/hipsCtrl/root/spine1/wing1_L_001
+        weight: 1
+      - path: Mover/Bone/hipsCtrl/root/spine1/wing1_L_001/wing1_L
+        weight: 1
+      - path: Mover/Bone/hipsCtrl/root/spine1/wing1_L_001/wing1_L/wing2_L
+        weight: 1
+      - path: Mover/Bone/hipsCtrl/root/spine1/wing1_L_001/wing1_L/wing2_L/wing3_L
+        weight: 1
+      - path: Mover/Bone/hipsCtrl/root/spine1/wing1_L_001/wing1_L/wing2_L/wing3_L/wing4_L
+        weight: 1
+      - path: Mover/Bone/hipsCtrl/root/spine1/wing1_R_001
+        weight: 1
+      - path: Mover/Bone/hipsCtrl/root/spine1/wing1_R_001/wing1_R
+        weight: 1
+      - path: Mover/Bone/hipsCtrl/root/spine1/wing1_R_001/wing1_R/wing2_R
+        weight: 1
+      - path: Mover/Bone/hipsCtrl/root/spine1/wing1_R_001/wing1_R/wing2_R/wing3_R
+        weight: 1
+      - path: Mover/Bone/hipsCtrl/root/spine1/wing1_R_001/wing1_R/wing2_R/wing3_R/wing4_R
+        weight: 1
+      - path: Mover/Bone/hipsCtrl/root/tail1
+        weight: 1
+      - path: Mover/Bone/hipsCtrl/root/tail1/tail2
+        weight: 1
+      - path: Mover/Bone/hipsCtrl/root/tail1/tail2/tail3
+        weight: 1
+      - path: Mover/Bone/hipsCtrl/root/tail1/tail2/tail3/tail4
+        weight: 1
+      - path: Mover/Bone/hipsCtrl/root/tail1/tail2/tail3/tail4/tail5
+        weight: 1
+      - path: Mover/Bone/hipsCtrl/root/tail1/tail2/tail3/tail4/tail5/tail6
+        weight: 1
+      - path: Mover/Bone/hipsCtrl/root/tail1/tail2/tail3/tail4/tail5/tail6/tail7
+        weight: 1
+      - path: Mover/Bone/hipsCtrl/root/tail1/tail2/tail3/tail4/tail5/tail6/tail7/tail8
+        weight: 1
+      - path: Mover/Bone/hipsCtrl/root/tail1/tail2/tail3/tail4/tail5/tail6/tail7/tail8/tail9
+        weight: 1
+      - path: Mover/Bone/hipsCtrl/root/tail1/tail2/tail3/tail4/tail5/tail6/tail7/tail8/tail9/tail10
+        weight: 1
+      - path: Mover/Bone/hipsCtrl/root/tail1/tail2/tail3/tail4/tail5/tail6/tail7/tail8/tail9/tail10/tail11
+        weight: 1
+      - path: Mover/Bone/hipsCtrl/root/tail1/tail2/tail3/tail4/tail5/tail6/tail7/tail8/tail9/tail10/tail11/tail12
+        weight: 1
+      - path: Mover/Bone/hipsCtrl/root/tail1/tail2/tail3/tail4/tail5/tail6/tail7/tail8/tail9/tail10/tail11/tail12/tipTail
+        weight: 1
+      - path: Mover/Bone/neckIK
+        weight: 1
+      - path: Mover/Bone/tailIK
+        weight: 1
+      - path: Mover/Bone/wingIK_L
+        weight: 1
+      - path: Mover/Bone/wingIK_R
+        weight: 1
+      - path: Mover/Bone/wingPole_L
+        weight: 1
+      - path: Mover/Bone/wingPole_R
+        weight: 1
+      - path: Teeth
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
